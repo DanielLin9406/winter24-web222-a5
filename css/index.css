@@ -1,0 +1,33 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card figure {
+  text-align: center;
+}
+
+.card img {
+  height: auto;
+  border-radius: 5px;
+}
+
+.card .actionContainer {
+  text-align: center;
+}
+
+.card button {
+  text-align: center;
+  margin-top: 10px;
+  padding: 7px;
+}
